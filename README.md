@@ -3,7 +3,7 @@ git clone https://github.com/vps0/vps.git
 sudo chmod +x -R vps 
 cd vps
 sudo ./user.sh
-sudo ./post_install.sh
+sudo ./vps.sh
 
 
 
@@ -18,4 +18,4 @@ sudo ./user.sh
 
 curl -o https://raw.githubusercontent.com/vps0/vps/main/post_install.sh
 sudo chmod +x post_install.sh
-sudo ./post_install.sh
+sudo ./vps.sh
