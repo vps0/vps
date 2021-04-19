@@ -11,8 +11,6 @@ read addRoot
 if [ $addRoot == 'y' ]
 then
     # add user to sudo group
-    sudo groupadd docker
-    sudo usermod -aG docker $username
     sudo usermod -aG sudo $username
 fi
 
